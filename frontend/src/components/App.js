@@ -34,10 +34,10 @@ class App extends Component {
   render() {
     return (
       <ul>
-        {this.state.data.map(contact => {
+        {this.state.data.map(book => {
           return (
-            <li key={contact.id}>
-              {contact.name} - {contact.email}
+            <li key={book.id}>
+              {book.title} - {book.description}
             </li>
           );
         })}
