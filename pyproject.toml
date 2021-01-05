@@ -6,7 +6,7 @@ authors = ["Lloyd Meins <dev@lloydmeins.de>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Django = "^3.1.4"
+Django = "^3.1.5"
 react = "^4.3.0"
 requests = "^2.25.1"
 djangorestframework = "^3.12.2"
